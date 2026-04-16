@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sabine Capital Partners | Private Credit & Digital Asset Management</title>
-<meta name="description" content="Sabine Capital Partners provides flexible debt capital ($5M-$25M) for middle-market companies. Unitranche, mezzanine, and royalty-based financing since 2010. Dallas, Texas.">
+<meta name="description" content="Sabine Capital Partners is a financial advisor and arranger of debt financing for middle-market companies. $5M to $50M. Unitranche, first-lien, mezzanine, ABL, and special situations capital. Dallas, Texas. Since 2010.">
 <style>
   :root {
     --navy: #0a1628;
@@ -83,6 +83,15 @@
 
   .structures { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 32px; }
   .structure-tag { background: white; border: 1px solid var(--border); padding: 10px 20px; border-radius: 8px; font-size: 0.88rem; font-weight: 500; color: var(--blue); }
+
+  /* SOLUTIONS */
+  .solutions-category { margin-bottom: 40px; }
+  .solutions-category h3 { font-size: 1.1rem; font-weight: 700; color: var(--navy); margin-bottom: 16px; padding-bottom: 8px; border-bottom: 2px solid var(--accent); display: inline-block; }
+  .solutions-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+  .solution-card { background: var(--bg); border-radius: 10px; padding: 20px 24px; border: 1px solid var(--border); transition: border-color 0.2s; }
+  .solution-card:hover { border-color: var(--accent); }
+  .solution-card h4 { font-size: 0.95rem; font-weight: 700; color: var(--navy); margin-bottom: 6px; }
+  .solution-card p { font-size: 0.85rem; color: var(--text-light); line-height: 1.6; }
 
   /* PROCESS */
   .process-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
@@ -185,8 +194,8 @@
   <div class="nav-inner">
     <a href="#" class="logo"><strong>SABINE</strong> CAPITAL PARTNERS</a>
     <ul class="nav-links">
-      <li><a href="#platforms">Platforms</a></li>
-      <li><a href="#criteria">Criteria</a></li>
+      <li><a href="#platforms">About</a></li>
+      <li><a href="#solutions">Solutions</a></li>
       <li><a href="#process">Process</a></li>
       <li><a href="#cases">Case Studies</a></li>
       <li><a href="#team">Team</a></li>
@@ -199,8 +208,8 @@
   </div>
 </nav>
 <div class="mobile-menu" id="mobile-menu">
-  <a href="#platforms" onclick="document.getElementById('mobile-menu').classList.remove('active')">Platforms</a>
-  <a href="#criteria" onclick="document.getElementById('mobile-menu').classList.remove('active')">Criteria</a>
+  <a href="#platforms" onclick="document.getElementById('mobile-menu').classList.remove('active')">About</a>
+  <a href="#solutions" onclick="document.getElementById('mobile-menu').classList.remove('active')">Solutions</a>
   <a href="#process" onclick="document.getElementById('mobile-menu').classList.remove('active')">Process</a>
   <a href="#cases" onclick="document.getElementById('mobile-menu').classList.remove('active')">Case Studies</a>
   <a href="#team" onclick="document.getElementById('mobile-menu').classList.remove('active')">Team</a>
@@ -211,89 +220,151 @@
 <!-- HERO -->
 <section class="hero">
   <div class="hero-inner">
-    <div class="hero-badge">Private Investment Firm &bull; Dallas, Texas</div>
-    <h1><strong>Flexible Debt Capital</strong> for the Middle Market</h1>
-    <p class="sub">Sabine Capital Partners provides $5M to $25M in customized credit solutions&mdash;unitranche, mezzanine, and royalty-based structures&mdash;to strong operating companies across the United States.</p>
+    <div class="hero-badge">Financial Advisory &amp; Debt Arrangement &bull; Dallas, Texas</div>
+    <h1><strong>Flexible Debt Capital</strong> for Middle-Market Companies</h1>
+    <p class="sub">Sabine Capital Partners acts as financial advisor and arranger of debt financing for middle-market companies&mdash;sourcing the right capital structure from the private credit market. $5M to $50M. Since 2010.</p>
     <div style="display: flex; gap: 16px; margin-top: 32px;">
       <a href="#contact" style="background: var(--accent); color: var(--navy); padding: 14px 28px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 0.95rem;">Submit a Deal</a>
-      <a href="#criteria" style="border: 1px solid rgba(255,255,255,0.3); color: white; padding: 14px 28px; border-radius: 8px; font-weight: 500; text-decoration: none; font-size: 0.95rem;">Investment Criteria &rarr;</a>
+      <a href="#solutions" style="border: 1px solid rgba(255,255,255,0.3); color: white; padding: 14px 28px; border-radius: 8px; font-weight: 500; text-decoration: none; font-size: 0.95rem;">Financing Solutions &rarr;</a>
     </div>
     <div class="hero-stats">
       <div class="hero-stat"><div class="num">2010</div><div class="lbl">Founded</div></div>
-      <div class="hero-stat"><div class="num">$5&ndash;25M</div><div class="lbl">Investment Size</div></div>
-      <div class="hero-stat"><div class="num">$40M</div><div class="lbl">Underwriting Capacity</div></div>
-      <div class="hero-stat"><div class="num">6</div><div class="lbl">Financing Structures</div></div>
+      <div class="hero-stat"><div class="num">$5&ndash;50M</div><div class="lbl">Facility Size</div></div>
+      <div class="hero-stat"><div class="num">13+</div><div class="lbl">Facility Types</div></div>
+      <div class="hero-stat"><div class="num">100%</div><div class="lbl">Middle Market Focus</div></div>
     </div>
   </div>
 </section>
 
-<!-- PLATFORMS -->
+<!-- WHAT WE DO -->
 <section class="section" id="platforms">
   <div class="section-inner">
     <div class="section-header">
-      <div class="eyebrow">Our Platforms</div>
-      <h2>Two <strong>Distinct Strategies</strong></h2>
-      <p>Sabine Capital operates two complementary but independent investment platforms, each with dedicated teams and focused mandates.</p>
+      <div class="eyebrow">What We Do</div>
+      <h2>Sabine <strong>Corporate Credit</strong></h2>
+      <p>We act as financial advisor and arranger of debt financing for middle-market companies, sourcing the right capital structure from across the private credit market. Where traditional banks are less active or less flexible, we find the solution.</p>
     </div>
-    <div class="platforms">
-      <div class="platform-card">
-        <div class="icon"><svg fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
-        <h3>Sabine Corporate Credit</h3>
-        <div class="tagline">Private Credit Platform</div>
-        <p>We originate debt investments in privately-held middle market businesses across a wide range of industries, providing capital for growth, acquisitions, refinancings, recapitalizations, and buyouts.</p>
-        <ul>
-          <li>Unitranche &amp; senior secured lending</li>
-          <li>Junior debt &amp; mezzanine financing</li>
-          <li>Royalty-based financing structures</li>
-          <li>Minority equity co-investments</li>
-          <li>EBITDA range: $2M to $20M+</li>
-        </ul>
-        <a href="#criteria" class="learn-more">View full criteria &rarr;</a>
+    <div class="why-grid">
+      <div class="why-item">
+        <div class="why-icon" style="font-size: 1rem;">U</div>
+        <div><h4>Senior &amp; Unitranche</h4><p>First-lien, unitranche, stretch senior, and first-out-last-out structures. The core building blocks of middle-market private credit.</p></div>
       </div>
-      <div class="platform-card">
-        <div class="icon"><svg fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
-        <h3>Sabine Digital Asset Management</h3>
-        <div class="tagline">Digital Assets Platform</div>
-        <p>Our digital asset management platform provides institutional-grade exposure to digital assets and blockchain-based opportunities, leveraging systematic strategies and rigorous risk management.</p>
-        <ul>
-          <li>Institutional digital asset strategies</li>
-          <li>Systematic portfolio construction</li>
-          <li>Risk-managed exposure frameworks</li>
-          <li>Blockchain infrastructure investments</li>
-        </ul>
-        <a href="#contact" class="learn-more">Learn more &rarr;</a>
+      <div class="why-item">
+        <div class="why-icon" style="font-size: 1rem;">J</div>
+        <div><h4>Junior &amp; Subordinated Capital</h4><p>Second-lien, mezzanine, holdco notes, holdco PIK, and preferred equity. Gap-filling capital when senior capacity isn't enough.</p></div>
       </div>
+      <div class="why-item">
+        <div class="why-icon" style="font-size: 1rem;">L</div>
+        <div><h4>Liquidity &amp; Working Capital</h4><p>Revolvers, asset-based lending, asset-backed finance, and ARR-based facilities for businesses with strong collateral or recurring revenue.</p></div>
+      </div>
+      <div class="why-item">
+        <div class="why-icon" style="font-size: 1rem;">S</div>
+        <div><h4>Special Situations</h4><p>Rescue capital, opportunistic financing, and bespoke solutions for stressed or time-sensitive situations where speed and certainty matter most.</p></div>
+      </div>
+    </div>
+    <div style="text-align: center; margin-top: 32px;">
+      <a href="#solutions" style="color: var(--blue); font-weight: 600; font-size: 0.95rem; text-decoration: none;">View all 13 facility types &rarr;</a>
     </div>
   </div>
 </section>
 
-<!-- INVESTMENT CRITERIA -->
-<section class="section" id="criteria" style="background: white;">
+<!-- FINANCING SOLUTIONS -->
+<section class="section" id="solutions" style="background: white;">
   <div class="section-inner">
     <div class="section-header">
-      <div class="eyebrow">Corporate Credit</div>
-      <h2>Investment <strong>Criteria</strong></h2>
-      <p>We invest in strong operating companies with stable cash flows and experienced management teams.</p>
+      <div class="eyebrow">Financing Solutions</div>
+      <h2>The Facilities <strong>We Arrange</strong></h2>
+      <p>Private credit today is heavily focused on middle-market borrowers, especially where traditional banks are less active or less flexible. We arrange the full range of private credit facilities, tailored to each situation.</p>
     </div>
-    <div class="criteria-grid">
-      <div class="criteria-item"><div class="value">$2M &ndash; $20M+</div><div class="label">Target EBITDA</div></div>
-      <div class="criteria-item"><div class="value">$5M &ndash; $25M</div><div class="label">Investment Size</div></div>
-      <div class="criteria-item"><div class="value">Up to $40M</div><div class="label">Underwriting Capacity</div></div>
-      <div class="criteria-item"><div class="value">Broad</div><div class="label">Industry Focus</div></div>
+
+    <div class="criteria-grid" style="margin-bottom: 48px;">
+      <div class="criteria-item"><div class="value">$5M &ndash; $50M</div><div class="label">Facility Size</div></div>
+      <div class="criteria-item"><div class="value">Middle Market</div><div class="label">Target Companies</div></div>
       <div class="criteria-item"><div class="value">United States</div><div class="label">Geographic Focus</div></div>
-      <div class="criteria-item"><div class="value">Flexible</div><div class="label">Covenant Approach</div></div>
     </div>
-    <div class="structures">
-      <div class="structure-tag">First Lien Term Loans</div>
-      <div class="structure-tag">Second Lien</div>
-      <div class="structure-tag">Unitranche</div>
-      <div class="structure-tag">Mezzanine</div>
-      <div class="structure-tag">Minority Equity</div>
-      <div class="structure-tag">Royalty-Based Financing</div>
+
+    <div class="solutions-category">
+      <h3>Liquidity &amp; Working Capital</h3>
+      <div class="solutions-grid">
+        <div class="solution-card">
+          <h4>Revolver / Working-Capital Line</h4>
+          <p>For seasonal liquidity, receivables swings, inventory, and general working capital. A standard product in private credit alongside term loans and delayed-draw facilities.</p>
+        </div>
+        <div class="solution-card">
+          <h4>Asset-Based Lending / Asset-Backed Finance</h4>
+          <p>When the business has strong collateral but weaker cash-flow lending capacity. Covers receivables, inventory, structured debt, hard assets, consumer finance, warehouse financing, and bilateral ABL structures.</p>
+        </div>
+      </div>
     </div>
-    <div style="text-align: center; margin-top: 32px;">
-      <p style="color: var(--text-light); font-size: 0.95rem; max-width: 600px; margin: 0 auto;">We invest in companies pursuing growth, acquisitions, refinancings, recapitalizations, buyouts, and other significant capital transactions.</p>
+
+    <div class="solutions-category">
+      <h3>Base Leverage</h3>
+      <div class="solutions-grid">
+        <div class="solution-card">
+          <h4>Funded Term Loan</h4>
+          <p>Drawn at closing for refinancing, dividends, acquisitions, or general corporate purposes. One of the core building blocks in private-credit-backed capital structures.</p>
+        </div>
+        <div class="solution-card">
+          <h4>First-Lien Senior Secured Loan</h4>
+          <p>The plain-vanilla senior private credit facility. Sits at the top of the capital structure, usually secured by substantially all assets. Includes unitranche structures.</p>
+        </div>
+        <div class="solution-card">
+          <h4>Unitranche</h4>
+          <p>Often the most important product for middle-market financing. Combines what might otherwise be separate senior and junior debt into one facility, one lender group, and one document set&mdash;faster and simpler than a traditional bank-plus-mezzanine structure.</p>
+        </div>
+        <div class="solution-card">
+          <h4>Stretch Senior / First-Out-Last-Out</h4>
+          <p>Variations of senior private credit that let lenders allocate risk internally while presenting a cleaner, single-facility solution to the borrower.</p>
+        </div>
+      </div>
     </div>
+
+    <div class="solutions-category">
+      <h3>Future Funded Needs</h3>
+      <div class="solutions-grid">
+        <div class="solution-card">
+          <h4>Delayed-Draw Term Loan (DDTL)</h4>
+          <p>Committed capital for future acquisitions, capex, integration costs, or liquidity support&mdash;rather than drawing all proceeds on day one. Can be structured creatively, including as payment DDTLs.</p>
+        </div>
+        <div class="solution-card">
+          <h4>ARR-Based / Recurring-Revenue Facilities</h4>
+          <p>For software and tech-enabled businesses where traditional EBITDA underwriting may not capture credit quality well. Recurring-revenue-based leverage structures have become increasingly common in the middle market.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="solutions-category">
+      <h3>Leverage Beyond Senior Capacity</h3>
+      <div class="solutions-grid">
+        <div class="solution-card">
+          <h4>Second-Lien Debt</h4>
+          <p>Junior to first-lien but still debt, not equity. Useful when the borrower needs more leverage than a senior lender will provide but does not want to fill the gap entirely with equity.</p>
+        </div>
+        <div class="solution-card">
+          <h4>Mezzanine Debt</h4>
+          <p>Subordinated junior capital, often with a higher coupon and sometimes equity-linked upside. The classic gap filler when senior or unitranche capacity is not enough.</p>
+        </div>
+        <div class="solution-card">
+          <h4>Holdco Notes / Holdco PIK</h4>
+          <p>Structurally subordinated facilities issued at the holding company level. More bespoke and typically more expensive, but can solve capital-structure problems when operating-company leverage is constrained.</p>
+        </div>
+        <div class="solution-card">
+          <h4>Preferred Equity</h4>
+          <p>Not debt in the strict sense, but part of the broader non-control capital solution set. Bridges a financing gap without common-equity dilution in the same way as a straight equity round.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="solutions-category">
+      <h3>Complex &amp; Stressed Situations</h3>
+      <div class="solutions-grid">
+        <div class="solution-card">
+          <h4>Special Situations / Rescue / Opportunistic Capital</h4>
+          <p>For unusual or stressed cases: covenant pressure, a failed sale process, near-term maturity walls, acquisition opportunities that need speed, or refinancing risk. More bespoke and typically more expensive, but designed for situations where flexibility and certainty matter most.</p>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -303,28 +374,28 @@
     <div class="section-header">
       <div class="eyebrow">How We Work</div>
       <h2>Our <strong>Process</strong></h2>
-      <p>From initial conversation to funding, we move with speed and transparency.</p>
+      <p>From initial conversation to closing, we manage the capital-raising process so you can focus on running your business.</p>
     </div>
     <div class="process-steps">
       <div class="process-step">
         <div class="step-num">1</div>
-        <h4>Introduction</h4>
-        <p>Share your deal overview via our submission form or a direct call. We respond within 48 hours with initial feedback.</p>
+        <h4>Situation Assessment</h4>
+        <p>We learn your business, capital needs, and timeline. We evaluate the full picture&mdash;cash flows, collateral, growth plans, and existing capital structure&mdash;to identify the right financing approach.</p>
       </div>
       <div class="process-step">
         <div class="step-num">2</div>
-        <h4>Preliminary Review</h4>
-        <p>We review financial materials and business fundamentals. If aligned with our criteria, we issue a preliminary term sheet within 1-2 weeks.</p>
+        <h4>Structure &amp; Strategy</h4>
+        <p>We design the optimal capital structure and identify the best-fit lenders from across the private credit market. You get a clear recommendation on facility type, terms, and lender positioning.</p>
       </div>
       <div class="process-step">
         <div class="step-num">3</div>
-        <h4>Due Diligence</h4>
-        <p>Thorough analysis of operations, financials, market position, and management. We work collaboratively and respect your time.</p>
+        <h4>Market &amp; Execution</h4>
+        <p>We prepare materials, run a targeted lender process, negotiate terms on your behalf, and manage the diligence workstream. We drive competitive tension to get you the best outcome.</p>
       </div>
       <div class="process-step">
         <div class="step-num">4</div>
-        <h4>Closing & Funding</h4>
-        <p>Final documentation and closing. We fund and become a long-term capital partner committed to your success.</p>
+        <h4>Closing &amp; Funding</h4>
+        <p>We coordinate documentation, manage closing mechanics, and ensure funds flow on schedule. After close, we remain available for future capital needs.</p>
       </div>
     </div>
   </div>
@@ -335,35 +406,35 @@
   <div class="section-inner">
     <div class="section-header">
       <div class="eyebrow">Track Record</div>
-      <h2>Representative <strong>Transactions</strong></h2>
-      <p>Select examples illustrating our approach across industries and structures.</p>
+      <h2>Representative <strong>Engagements</strong></h2>
+      <p>Select examples illustrating how we structure and arrange financing across industries and situations.</p>
     </div>
     <div class="case-grid">
       <div class="case-card">
         <div class="industry">Healthcare Services</div>
-        <h4>Growth Acquisition Financing</h4>
-        <p>Provided growth capital to a specialty healthcare services company to fund two strategic add-on acquisitions, expanding geographic reach and service capabilities.</p>
+        <h4>Acquisition Platform Build</h4>
+        <p>Advised a specialty healthcare company on a capital structure to support two add-on acquisitions. Arranged a unitranche facility with a delayed-draw component for the second acquisition, replacing a more complex bank-plus-mezzanine structure the company had initially explored.</p>
         <dl class="deal-info">
-          <dt>Structure</dt><dd>Unitranche</dd>
+          <dt>Facilities Arranged</dt><dd>Unitranche + DDTL</dd>
           <dt>Use of Proceeds</dt><dd>Acquisitions</dd>
         </dl>
       </div>
       <div class="case-card">
         <div class="industry">Business Services</div>
-        <h4>Management Buyout</h4>
-        <p>Structured a flexible financing package enabling the management team of a B2B services company to acquire the business from a retiring founder.</p>
+        <h4>Sponsor-Backed Buyout</h4>
+        <p>Arranged the debt financing for a private equity-backed management buyout of a B2B services company from a retiring founder. Structured a first-lien term loan with a revolver for working capital, and sourced mezzanine to bridge the gap between senior capacity and total leverage need.</p>
         <dl class="deal-info">
-          <dt>Structure</dt><dd>Senior + Mezzanine</dd>
+          <dt>Facilities Arranged</dt><dd>First Lien + Revolver + Mezz</dd>
           <dt>Use of Proceeds</dt><dd>Buyout</dd>
         </dl>
       </div>
       <div class="case-card">
         <div class="industry">Manufacturing</div>
-        <h4>Recapitalization &amp; Growth</h4>
-        <p>Provided a recapitalization facility for a precision manufacturing company, allowing the sponsor to take partial liquidity while retaining capital for organic growth initiatives.</p>
+        <h4>Refinancing Under Pressure</h4>
+        <p>Engaged by a precision manufacturer facing a near-term maturity wall with its incumbent bank group. Ran a targeted lender process across the private credit market and arranged a new first-lien facility on improved terms, giving the company runway to execute its growth plan.</p>
         <dl class="deal-info">
-          <dt>Structure</dt><dd>First Lien Term Loan</dd>
-          <dt>Use of Proceeds</dt><dd>Recap + Growth</dd>
+          <dt>Facilities Arranged</dt><dd>First Lien Term Loan</dd>
+          <dt>Use of Proceeds</dt><dd>Refinancing</dd>
         </dl>
       </div>
     </div>
@@ -385,7 +456,7 @@
         <div class="team-info">
           <h4>Todd Foster</h4>
           <div class="role">Founder &amp; Managing Partner</div>
-          <p>Founded Sabine Capital Partners in 2010 to invest opportunistically in corporate credit. Leads the firm's investment strategy, deal origination, and portfolio management across both platforms.</p>
+          <p>Founded Sabine Capital Partners in 2010. Leads the firm's advisory practice, structuring and arranging debt financings for middle-market companies across the private credit market.</p>
         </div>
       </div>
       <div class="team-card">
@@ -418,19 +489,19 @@
     <div class="why-grid">
       <div class="why-item">
         <div class="why-icon">S</div>
-        <div><h4>Speed &amp; Certainty</h4><p>Preliminary term sheets within 1-2 weeks. Our streamlined decision-making process means faster execution for time-sensitive transactions.</p></div>
+        <div><h4>Speed &amp; Certainty</h4><p>We move fast. Our lender relationships and market knowledge let us identify the right capital source quickly and drive processes to term sheets in days, not months.</p></div>
       </div>
       <div class="why-item">
         <div class="why-icon">F</div>
-        <div><h4>Flexible Structures</h4><p>Six distinct financing structures from first lien to royalty-based. We tailor capital solutions to match each company's specific needs and cash flow profile.</p></div>
+        <div><h4>Full Product Range</h4><p>Thirteen facility types from revolvers to special situations capital. We design the right structure for your situation rather than fitting you into whatever product a single lender happens to offer.</p></div>
       </div>
       <div class="why-item">
-        <div class="why-icon">P</div>
-        <div><h4>Partnership Approach</h4><p>We invest as long-term partners, not transactional lenders. Our success is aligned with the growth and health of our portfolio companies.</p></div>
+        <div class="why-icon">A</div>
+        <div><h4>Aligned Advocacy</h4><p>We represent you, not the lender. As your advisor, we negotiate on your behalf and create competitive tension in the market to get you better terms, pricing, and flexibility.</p></div>
       </div>
       <div class="why-item">
         <div class="why-icon">E</div>
-        <div><h4>15+ Years of Experience</h4><p>Founded in 2010, we've built deep expertise in middle-market credit through multiple economic cycles. Our track record speaks to consistent, disciplined execution.</p></div>
+        <div><h4>15+ Years of Experience</h4><p>Founded in 2010, we've arranged financings through multiple credit cycles. We know which lenders are active, what terms are achievable, and how to close transactions that banks won't touch.</p></div>
       </div>
     </div>
   </div>
@@ -466,7 +537,7 @@
     <div class="section-header">
       <div class="eyebrow">Get in Touch</div>
       <h2>Submit a <strong>Deal</strong></h2>
-      <p>Whether you're a business owner, sponsor, or intermediary, we'd like to hear about your opportunity.</p>
+      <p>Whether you're a business owner, sponsor, or intermediary, tell us about your financing need and we'll identify the right solution.</p>
     </div>
     <div class="contact-grid">
       <div class="contact-info">
@@ -579,14 +650,13 @@
   <div class="footer-inner">
     <div class="footer-brand">
       <a href="#" class="logo"><strong>SABINE</strong> CAPITAL PARTNERS</a>
-      <p>Private investment firm and merchant capital provider. Capital solutions for the middle market since 2010.</p>
+      <p>Financial advisor and arranger of debt financing for middle-market companies. Since 2010.</p>
     </div>
     <div class="footer-links">
       <div class="footer-col">
-        <h4>Platforms</h4>
+        <h4>Services</h4>
         <a href="#platforms">Corporate Credit</a>
-        <a href="#platforms">Digital Assets</a>
-        <a href="#criteria">Investment Criteria</a>
+        <a href="#solutions">Financing Solutions</a>
         <a href="#process">Our Process</a>
       </div>
       <div class="footer-col">
