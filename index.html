@@ -111,7 +111,9 @@
   /* SOLUTIONS */
   .solutions-category { margin-bottom: 40px; }
   .solutions-category h3 { font-size: 1.1rem; font-weight: 700; color: var(--navy); margin-bottom: 16px; padding-bottom: 8px; border-bottom: 2px solid var(--accent); display: inline-block; }
-  .solutions-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+  .solutions-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+  .channels-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .channels-note { max-width: 780px; margin: 32px auto 0; text-align: center; font-size: 0.95rem; color: var(--text-light); }
   .solution-card { background: var(--bg); border-radius: 10px; padding: 20px 24px; border: 1px solid var(--border); transition: border-color 0.2s; }
   .solution-card:hover { border-color: var(--accent); }
   .solution-card h4 { font-size: 0.95rem; font-weight: 700; color: var(--navy); margin-bottom: 6px; }
@@ -202,6 +204,7 @@
     .process-steps { grid-template-columns: repeat(2, 1fr); }
     .case-grid, .team-grid { grid-template-columns: 1fr; }
     .why-grid { grid-template-columns: 1fr; }
+    .channels-grid { grid-template-columns: 1fr; }
     .nav-links { display: none; }
     .hamburger { display: block; }
     .nav-cta { display: none; }
@@ -344,7 +347,7 @@
       <h2>Three <strong>Lender Channels</strong></h2>
       <p>We are not tied to one type of lender. Each financing goes to the channel, or the combination of channels, that fits the credit. That is the point of using an advisor instead of calling a single lender.</p>
     </div>
-    <div class="solutions-grid">
+    <div class="channels-grid">
       <div class="solution-card">
         <h4>Banks</h4>
         <p>Commercial banks and specialty bank groups, including fund finance desks, asset-based lending groups, and regional banks prepared to take a full treasury relationship. Usually the lowest cost of capital when the credit fits inside bank parameters.</p>
@@ -358,7 +361,7 @@
         <p>Direct lenders, BDCs, credit funds, and family offices. They offer speed, size, and structural flexibility, including unitranche and junior capital, at a higher cost than bank debt.</p>
       </div>
     </div>
-    <p style="text-align: center; margin-top: 32px; font-size: 0.95rem; color: var(--text-light);">Most borrowers only ever see one of these three possible solutions, because they only call one lender. Sabine runs the credit against all three, and acts for the borrower in each of them.</p>
+    <p class="channels-note">Most borrowers only ever see one of these three possible solutions, because they only call one lender. Sabine runs the credit against all three, and acts for the borrower in each of them.</p>
   </div>
 </section>
 
