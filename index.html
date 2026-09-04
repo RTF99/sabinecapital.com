@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sabine Capital Partners | Private Credit & Digital Asset Management</title>
-<meta name="description" content="Sabine Capital Partners is a financial advisor and arranger of debt financing for middle-market companies. Sub $150M facilities. Unitranche, first-lien, mezzanine, ABL, and special situations capital. Dallas, Texas. Since 2010.">
+<title>Sabine Growth Capital Partners | Middle-Market Debt Advisory &amp; Fund Finance</title>
+<meta name="description" content="Sabine Growth Capital Partners is a middle-market debt advisory firm. We arrange and place debt financing with banks, non-bank lenders and private credit funds on behalf of borrowers. Corporate credit, fund finance, acquisition financing, working capital and special situations. Dallas, Texas. Since 2010.">
 <link rel="icon" type="image/x-icon" href="favicon.ico?v=2">
 <link rel="icon" type="image/svg+xml" href="favicon.svg?v=2">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=2">
@@ -14,15 +14,15 @@
 <!-- Open Graph / Twitter Card -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sabinecapital.com/">
-<meta property="og:title" content="Sabine Capital Partners | Private Credit Advisor for Middle-Market Companies">
-<meta property="og:description" content="Independent financial advisor and arranger of debt financing for middle-market companies. Sub $150M facilities. Unitranche, first-lien, mezzanine, ABL, and special situations capital. Dallas, since 2010.">
+<meta property="og:title" content="Sabine Growth Capital Partners | Middle-Market Debt Advisory &amp; Fund Finance">
+<meta property="og:description" content="We arrange and place debt financing with banks, non-bank lenders and private credit funds on behalf of borrowers. Corporate credit, fund finance, acquisition financing and special situations. Dallas, since 2010.">
 <meta property="og:image" content="https://www.sabinecapital.com/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:site_name" content="Sabine Capital Partners">
+<meta property="og:site_name" content="Sabine Growth Capital Partners">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Sabine Capital Partners | Private Credit Advisor">
-<meta name="twitter:description" content="Independent financial advisor and arranger of debt financing for middle-market companies. Sub $150M facilities. Dallas, since 2010.">
+<meta name="twitter:title" content="Sabine Growth Capital Partners | Middle-Market Debt Advisory">
+<meta name="twitter:description" content="We arrange and place debt financing with banks, non-bank lenders and private credit funds on behalf of borrowers. Sub $150M facilities. Dallas, since 2010.">
 <meta name="twitter:image" content="https://www.sabinecapital.com/og-image.png">
 
 <!-- Cormorant Garamond — editorial serif for italic accents -->
@@ -125,7 +125,7 @@
   .process-step p { font-size: 0.88rem; color: var(--text-light); }
 
   /* CASE STUDIES */
-  .case-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .case-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
   .case-card { background: white; border-radius: 12px; padding: 28px; border: 1px solid var(--border); }
   .case-card .industry { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--accent); margin-bottom: 12px; }
   .case-card h4 { font-size: 1.05rem; font-weight: 600; color: var(--navy); margin-bottom: 10px; }
@@ -195,6 +195,8 @@
   @media (max-width: 900px) {
     .hero h1 { font-size: 2.2rem; }
     .hero-stats { flex-wrap: wrap; gap: 24px; }
+    .criteria-item { min-width: 0; padding: 20px 14px; }
+    .criteria-item .value { font-size: 1.15rem; overflow-wrap: anywhere; }
     .platforms, .contact-grid, .csr-content { grid-template-columns: 1fr; }
     .criteria-grid { grid-template-columns: repeat(2, 1fr); }
     .process-steps { grid-template-columns: repeat(2, 1fr); }
@@ -208,23 +210,6 @@
     .footer-bottom { flex-direction: column; gap: 8px; }
   }
 
-  /* DALLAS SKYLINE BACKGROUND IN HERO */
-  .hero { position: relative; }
-  .hero::before {
-    content: '';
-    position: absolute;
-    left: 0; right: 0; bottom: 0;
-    height: 220px;
-    background-image: url('dallas-skyline.svg');
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: 1600px auto;
-    opacity: 0.07;
-    color: #ffffff;
-    pointer-events: none;
-    z-index: 0;
-  }
-  .hero > * { position: relative; z-index: 1; }
 
   /* SCROLL-REVEAL ANIMATIONS */
   .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
@@ -233,6 +218,76 @@
     .reveal { opacity: 1; transform: none; transition: none; }
   }
 </style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FinancialService",
+  "name": "Sabine Growth Capital Partners",
+  "legalName": "Sabine Growth Capital Partners LLC",
+  "alternateName": "Sabine Capital Partners",
+  "url": "https://www.sabinecapital.com/",
+  "logo": "https://www.sabinecapital.com/favicon-512.png",
+  "image": "https://www.sabinecapital.com/og-image.png",
+  "foundingDate": "2010",
+  "description": "Sabine Growth Capital Partners is a middle-market debt advisory firm. It arranges and places debt financing with banks, non-bank lenders and private credit funds on behalf of borrowers.",
+  "email": "info@sabinecapital.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1901 N. Akard Street",
+    "addressLocality": "Dallas",
+    "addressRegion": "TX",
+    "postalCode": "75201",
+    "addressCountry": "US"
+  },
+  "areaServed": [
+    { "@type": "Country", "name": "United States" },
+    { "@type": "Country", "name": "Canada" }
+  ],
+  "founder": { "@type": "Person", "name": "Todd Foster", "jobTitle": "Founder and Managing Partner" },
+  "knowsAbout": [
+    "Debt advisory",
+    "Debt placement",
+    "Middle-market lending",
+    "Fund finance",
+    "Warehouse credit facilities",
+    "SPV facilities",
+    "Subscription and capital call lines",
+    "NAV facilities",
+    "GP and management company loans",
+    "Unitranche financing",
+    "First-lien senior secured loans",
+    "Second-lien debt",
+    "Mezzanine debt",
+    "Holdco notes and holdco PIK",
+    "Preferred equity",
+    "Asset-based lending",
+    "Factoring and receivables finance",
+    "Delayed-draw term loans",
+    "Recurring revenue and ARR facilities",
+    "Acquisition financing",
+    "Cross-border acquisition finance",
+    "Shareholder redemption financing",
+    "Recapitalization",
+    "Special situations and rescue capital",
+    "Debt capacity analysis"
+  ],
+  "serviceType": [
+    "Corporate credit placement",
+    "Fund finance placement",
+    "Acquisition and ownership transition financing",
+    "Working capital and receivables finance",
+    "Special situations and recapitalization advisory"
+  ],
+  "makesOffer": [
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Corporate Credit", "description": "Senior, unitranche, second-lien, mezzanine, holdco notes and preferred equity for operating companies." } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Fund Finance", "description": "Warehouse and SPV facilities, subscription and capital call lines, NAV facilities, and GP and management company loans for fund managers." } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Liquidity and Working Capital", "description": "Revolvers, asset-based lending, and factoring and receivables finance." } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Acquisition and Ownership Transition", "description": "Acquisition financing for independent buyers, cross-border structures, and shareholder redemption financing." } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Special Situations", "description": "Rescue and opportunistic capital, recapitalization and balance-sheet restructuring." } }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -265,9 +320,9 @@
 <!-- HERO -->
 <section class="hero">
   <div class="hero-inner">
-    <div class="hero-badge">Financial Advisory &amp; Debt Arrangement &bull; Dallas, Texas</div>
-    <h1><strong>Flexible Debt Capital</strong> for Middle-Market Companies</h1>
-    <p class="sub">Sabine Capital Partners acts as financial advisor and arranger of debt financing for middle-market companies&mdash;sourcing the right capital structure from the private credit market. Sub $150M facilities. Since 2010.</p>
+    <div class="hero-badge">Debt Advisory &amp; Placement &bull; Dallas, Texas</div>
+    <h1><strong>Debt Capital</strong> for Middle-Market Companies and Fund Managers</h1>
+    <p class="sub">Sabine Growth Capital Partners is a debt advisory firm. We arrange and place debt financing with banks, non-bank lenders and private credit funds on behalf of borrowers. Facilities up to $150 million. Since 2010.</p>
     <div style="display: flex; gap: 16px; margin-top: 32px;">
       <a href="#contact" style="background: var(--accent); color: var(--navy); padding: 14px 28px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 0.95rem;">Submit a Deal</a>
       <a href="#solutions" style="border: 1px solid rgba(255,255,255,0.3); color: white; padding: 14px 28px; border-radius: 8px; font-weight: 500; text-decoration: none; font-size: 0.95rem;">Financing Solutions &rarr;</a>
@@ -275,9 +330,35 @@
     <div class="hero-stats">
       <div class="hero-stat"><div class="num">2010</div><div class="lbl">Founded</div></div>
       <div class="hero-stat"><div class="num">Sub $150M</div><div class="lbl">Facility Size</div></div>
-      <div class="hero-stat"><div class="num">13+</div><div class="lbl">Facility Types</div></div>
-      <div class="hero-stat"><div class="num">100%</div><div class="lbl">Middle Market Focus</div></div>
+      <div class="hero-stat"><div class="num">22</div><div class="lbl">Facility Types</div></div>
+      <div class="hero-stat"><div class="num">3</div><div class="lbl">Lender Channels</div></div>
     </div>
+  </div>
+</section>
+
+<!-- CAPITAL SOURCES -->
+<section class="section" id="sources" style="background: white;">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="eyebrow">Where the Capital Comes From</div>
+      <h2>Three <strong>Lender Channels</strong></h2>
+      <p>We are not tied to one type of lender. Each financing goes to the channel, or the combination of channels, that fits the credit. That is the point of using an advisor instead of calling a single lender.</p>
+    </div>
+    <div class="solutions-grid">
+      <div class="solution-card">
+        <h4>Banks</h4>
+        <p>Commercial banks and specialty bank groups, including fund finance desks, asset-based lending groups, and regional banks prepared to take a full treasury relationship. Usually the lowest cost of capital when the credit fits inside bank parameters.</p>
+      </div>
+      <div class="solution-card">
+        <h4>Non-Bank Lenders</h4>
+        <p>Specialty finance companies, factors, asset-based lenders, equipment and floorplan lenders, and warehouse providers. They underwrite collateral and structure rather than cash flow alone, and they will look at situations a bank cannot.</p>
+      </div>
+      <div class="solution-card">
+        <h4>Private Credit Funds</h4>
+        <p>Direct lenders, BDCs, credit funds, and family offices. They offer speed, size, and structural flexibility, including unitranche and junior capital, at a higher cost than bank debt.</p>
+      </div>
+    </div>
+    <p style="text-align: center; margin-top: 32px; font-size: 0.95rem; color: var(--text-light);">We run each financing across the channels that fit it, and we work for the borrower.</p>
   </div>
 </section>
 
@@ -286,25 +367,31 @@
   <div class="section-inner">
     <div class="section-header">
       <div class="eyebrow">What We Do</div>
-      <h2>Sabine <strong>Corporate Credit</strong></h2>
-      <p>We act as financial advisor and arranger of debt financing for middle-market companies, sourcing the right capital structure from across the private credit market. Where traditional banks are less active or less flexible, we find the solution.</p>
+      <h2>Middle-Market <strong>Debt Advisory</strong></h2>
+      <p>We advise borrowers on capital structure, then run the process to place the debt. Corporate credit, fund finance, acquisition financing, working capital, and special situations. We take each mandate to banks, non-bank lenders and private credit funds, and we negotiate on the client's side of the table.</p>
     </div>
     <div class="why-grid">
       <div class="why-item">
-        <div><h4>Senior &amp; Unitranche</h4><p>First-lien, unitranche, stretch senior, and first-out-last-out structures. The core building blocks of middle-market private credit.</p></div>
+        <div><h4>Corporate Credit</h4><p>Senior, unitranche, stretch senior and first-out-last-out, plus second-lien, mezzanine, holdco notes and preferred equity when senior capacity is not enough.</p></div>
       </div>
       <div class="why-item">
-        <div><h4>Junior &amp; Subordinated Capital</h4><p>Second-lien, mezzanine, holdco notes, holdco PIK, and preferred equity. Gap-filling capital when senior capacity isn't enough.</p></div>
+        <div><h4>Fund Finance</h4><p>Warehouse and SPV facilities, subscription and capital call lines, NAV facilities, and management company loans for fund managers and sponsors.</p></div>
       </div>
       <div class="why-item">
-        <div><h4>Liquidity &amp; Working Capital</h4><p>Revolvers, asset-based lending, asset-backed finance, and ARR-based facilities for businesses with strong collateral or recurring revenue.</p></div>
+        <div><h4>Liquidity &amp; Working Capital</h4><p>Revolvers, asset-based lending, factoring and receivables finance, and recurring-revenue facilities for businesses with collateral or contracted revenue.</p></div>
       </div>
       <div class="why-item">
-        <div><h4>Special Situations</h4><p>Rescue capital, opportunistic financing, and bespoke solutions for stressed or time-sensitive situations where speed and certainty matter most.</p></div>
+        <div><h4>Acquisition &amp; Ownership Transition</h4><p>Debt for platform acquisitions and bolt-ons, cross-border structures, and shareholder redemptions where an owner is buying out a partner or retiring.</p></div>
+      </div>
+      <div class="why-item">
+        <div><h4>Special Situations</h4><p>Rescue and opportunistic capital, recapitalizations, and balance-sheet restructuring for stressed or time-sensitive situations where certainty of close matters most.</p></div>
+      </div>
+      <div class="why-item">
+        <div><h4>Structuring &amp; Analysis</h4><p>Debt capacity models, borrowing base and covenant analysis, and lender-ready materials. Sometimes the first question is how much debt the business can actually carry, not who will lend it.</p></div>
       </div>
     </div>
     <div style="text-align: center; margin-top: 32px;">
-      <a href="#solutions" style="color: var(--blue); font-weight: 600; font-size: 0.95rem; text-decoration: none;">View all 13 facility types &rarr;</a>
+      <a href="#solutions" style="color: var(--blue); font-weight: 600; font-size: 0.95rem; text-decoration: none;">View all 22 facility types &rarr;</a>
     </div>
   </div>
 </section>
@@ -315,13 +402,13 @@
     <div class="section-header">
       <div class="eyebrow">Financing Solutions</div>
       <h2>The Facilities <strong>We Arrange</strong></h2>
-      <p>Private credit today is heavily focused on middle-market borrowers, especially where traditional banks are less active or less flexible. We arrange the full range of private credit facilities, tailored to each situation.</p>
+      <p>Twenty-two facility types across corporate credit, fund finance, working capital, acquisition and ownership transition, and special situations. We place them with banks, non-bank lenders and private credit funds, depending on which channel gives the client the best result.</p>
     </div>
 
     <div class="criteria-grid" style="margin-bottom: 48px;">
       <div class="criteria-item"><div class="value">Sub $150M</div><div class="label">Facility Size</div></div>
-      <div class="criteria-item"><div class="value">Middle Market</div><div class="label">Target Companies</div></div>
-      <div class="criteria-item"><div class="value">United States</div><div class="label">Geographic Focus</div></div>
+      <div class="criteria-item"><div class="value">Companies &amp; Funds</div><div class="label">Borrower Types</div></div>
+      <div class="criteria-item"><div class="value">U.S. &amp; Cross-Border</div><div class="label">Geographic Focus</div></div>
     </div>
 
     <div class="solutions-category">
@@ -329,11 +416,15 @@
       <div class="solutions-grid">
         <div class="solution-card">
           <h4>Revolver / Working-Capital Line</h4>
-          <p>For seasonal liquidity, receivables swings, inventory, and general working capital. A standard product in private credit alongside term loans and delayed-draw facilities.</p>
+          <p>For seasonal liquidity, receivables swings, inventory, and general working capital. Available from banks and from non-bank lenders, and often the facility that stays in place after a refinancing.</p>
         </div>
         <div class="solution-card">
           <h4>Asset-Based Lending / Asset-Backed Finance</h4>
-          <p>When the business has strong collateral but weaker cash-flow lending capacity. Covers receivables, inventory, structured debt, hard assets, consumer finance, warehouse financing, and bilateral ABL structures.</p>
+          <p>When the business has strong collateral but weaker cash-flow lending capacity. Covers receivables, inventory, hard assets, structured debt, consumer and commercial finance receivables, and bilateral ABL structures.</p>
+        </div>
+        <div class="solution-card">
+          <h4>Factoring &amp; Receivables Finance</h4>
+          <p>Sale or financing of trade receivables, on a recourse or non-recourse basis, where the credit rests on the account debtors rather than the borrower. Useful for growing or thinly capitalized businesses that cannot yet support a conventional revolver.</p>
         </div>
       </div>
     </div>
@@ -343,19 +434,41 @@
       <div class="solutions-grid">
         <div class="solution-card">
           <h4>Funded Term Loan</h4>
-          <p>Drawn at closing for refinancing, dividends, acquisitions, or general corporate purposes. One of the core building blocks in private-credit-backed capital structures.</p>
+          <p>Drawn at closing for refinancing, dividends, acquisitions, or general corporate purposes. One of the core building blocks in middle-market capital structures, from both banks and direct lenders.</p>
         </div>
         <div class="solution-card">
           <h4>First-Lien Senior Secured Loan</h4>
-          <p>The plain-vanilla senior private credit facility. Sits at the top of the capital structure, usually secured by substantially all assets. Includes unitranche structures.</p>
+          <p>The plain-vanilla senior facility. Sits at the top of the capital structure, usually secured by substantially all assets. Priced tightest at a bank and priced for flexibility at a credit fund.</p>
         </div>
         <div class="solution-card">
           <h4>Unitranche</h4>
-          <p>Often the most important product for middle-market financing. Combines what might otherwise be separate senior and junior debt into one facility, one lender group, and one document set&mdash;faster and simpler than a traditional bank-plus-mezzanine structure.</p>
+          <p>Combines what would otherwise be separate senior and junior debt into one facility, one lender group, and one document set. Faster and simpler than a bank-plus-mezzanine structure, at a blended cost between the two.</p>
         </div>
         <div class="solution-card">
           <h4>Stretch Senior / First-Out-Last-Out</h4>
-          <p>Variations of senior private credit that let lenders allocate risk internally while presenting a cleaner, single-facility solution to the borrower.</p>
+          <p>Variations of senior debt that let lenders allocate risk internally while presenting a cleaner, single-facility solution to the borrower. Common where a bank and a credit fund share one facility.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="solutions-category">
+      <h3>Fund Finance</h3>
+      <div class="solutions-grid">
+        <div class="solution-card">
+          <h4>Warehouse &amp; SPV Facilities</h4>
+          <p>Facilities that let a manager fund investments ahead of capital calls or ahead of a permanent vehicle, secured by the underlying holding companies or assets. Often structured with a master borrower so a new loan document is not needed for each investment.</p>
+        </div>
+        <div class="solution-card">
+          <h4>Subscription / Capital Call Lines</h4>
+          <p>Revolving facilities secured by uncalled LP commitments and the right to call capital. Used to smooth funding timing and reduce the number of capital calls made on investors.</p>
+        </div>
+        <div class="solution-card">
+          <h4>NAV Facilities</h4>
+          <p>Leverage against the net asset value of a fund's portfolio, typically later in the fund's life when uncalled commitments no longer support a subscription line. Used for follow-on capital, liquidity, or distributions.</p>
+        </div>
+        <div class="solution-card">
+          <h4>GP &amp; Management Company Loans</h4>
+          <p>Facilities to the general partner or management company, supported by management fee income or GP commitments. Used to fund GP co-invest obligations or working capital at the firm level.</p>
         </div>
       </div>
     </div>
@@ -365,11 +478,11 @@
       <div class="solutions-grid">
         <div class="solution-card">
           <h4>Delayed-Draw Term Loan (DDTL)</h4>
-          <p>Committed capital for future acquisitions, capex, integration costs, or liquidity support&mdash;rather than drawing all proceeds on day one. Can be structured creatively, including as payment DDTLs.</p>
+          <p>Committed capital for future acquisitions, capex, integration costs, or liquidity support, rather than drawing all proceeds on day one. Can be structured creatively, including as payment DDTLs.</p>
         </div>
         <div class="solution-card">
           <h4>ARR-Based / Recurring-Revenue Facilities</h4>
-          <p>For software and tech-enabled businesses where traditional EBITDA underwriting may not capture credit quality well. Recurring-revenue-based leverage structures have become increasingly common in the middle market.</p>
+          <p>For software and tech-enabled businesses where traditional EBITDA underwriting does not capture credit quality well. Recurring-revenue leverage structures are now standard in the middle market.</p>
         </div>
       </div>
     </div>
@@ -387,11 +500,29 @@
         </div>
         <div class="solution-card">
           <h4>Holdco Notes / Holdco PIK</h4>
-          <p>Structurally subordinated facilities issued at the holding company level. More bespoke and typically more expensive, but can solve capital-structure problems when operating-company leverage is constrained.</p>
+          <p>Structurally subordinated facilities issued at the holding company level. More bespoke and typically more expensive, but they can solve capital-structure problems when operating-company leverage is constrained.</p>
         </div>
         <div class="solution-card">
           <h4>Preferred Equity</h4>
-          <p>Not debt in the strict sense, but part of the broader non-control capital solution set. Bridges a financing gap without common-equity dilution in the same way as a straight equity round.</p>
+          <p>Not debt in the strict sense, but part of the broader non-control capital solution set. Bridges a financing gap without the common-equity dilution of a straight equity round.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="solutions-category">
+      <h3>Acquisition &amp; Ownership Transition</h3>
+      <div class="solutions-grid">
+        <div class="solution-card">
+          <h4>Acquisition Financing for Independent Buyers</h4>
+          <p>Senior and junior debt for buyers without a fund behind them: independent sponsors, search-style acquirers, operators, and family businesses. Structured alongside buyer equity and a seller note, and built for buyers who are not SBA eligible.</p>
+        </div>
+        <div class="solution-card">
+          <h4>Cross-Border Acquisition Structures</h4>
+          <p>Financing where the parent and the target sit in different countries, most often between the United States and Canada. Addresses guarantee structure, collateral perfection in each jurisdiction, and which side of the border the lender should sit on.</p>
+        </div>
+        <div class="solution-card">
+          <h4>Shareholder Redemption &amp; Ownership Transition</h4>
+          <p>Debt to buy out a departing or retiring shareholder without selling the company. Starts with a debt capacity analysis showing what the business can actually support, then places the facility that funds the redemption.</p>
         </div>
       </div>
     </div>
@@ -401,7 +532,11 @@
       <div class="solutions-grid">
         <div class="solution-card">
           <h4>Special Situations / Rescue / Opportunistic Capital</h4>
-          <p>For unusual or stressed cases: covenant pressure, a failed sale process, near-term maturity walls, acquisition opportunities that need speed, or refinancing risk. More bespoke and typically more expensive, but designed for situations where flexibility and certainty matter most.</p>
+          <p>For unusual or stressed cases: covenant pressure, a failed sale process, a near-term maturity wall, an acquisition that needs speed, or refinancing risk. More bespoke and typically more expensive, but designed for situations where flexibility and certainty matter most.</p>
+        </div>
+        <div class="solution-card">
+          <h4>Recapitalization &amp; Balance-Sheet Restructuring</h4>
+          <p>Where the problem is the existing capital structure rather than the business. Includes negotiated payoffs at a discount, debt-for-equity conversions, and bringing in new control or minority equity alongside a right-sized senior facility.</p>
         </div>
       </div>
     </div>
@@ -415,7 +550,7 @@
     <div class="section-header">
       <div class="eyebrow">How We Work</div>
       <h2>Our <strong>Process</strong></h2>
-      <p>From initial conversation to closing, we manage the capital-raising process so you can focus on running your business.</p>
+      <p>From the first conversation to closing, we manage the financing process so you can keep running the business.</p>
     </div>
     <div class="process-steps">
       <div class="process-step">
@@ -426,7 +561,7 @@
       <div class="process-step">
         <div class="step-num">2</div>
         <h4>Structure &amp; Strategy</h4>
-        <p>We design the optimal capital structure and identify the best-fit lenders from across the private credit market. You get a clear recommendation on facility type, terms, and lender positioning.</p>
+        <p>We design the capital structure and build the target lender list across banks, non-bank lenders and private credit funds. You get a clear recommendation on facility type, terms, and how the story should be positioned to each channel.</p>
       </div>
       <div class="process-step">
         <div class="step-num">3</div>
@@ -448,38 +583,52 @@
     <div class="section-header">
       <div class="eyebrow">Track Record</div>
       <h2>Representative <strong>Engagements</strong></h2>
-      <p>Select examples illustrating how we structure and arrange financing across industries and situations.</p>
+      <p>Selected mandates showing the range of borrowers, structures and lender channels we work across.</p>
     </div>
     <div class="case-grid">
+
       <div class="case-card">
-        <div class="industry">Healthcare Services</div>
-        <h4>Acquisition Platform Build</h4>
-        <p>Advised a specialty healthcare company on a capital structure to support two add-on acquisitions. Arranged a unitranche facility with a delayed-draw component for the second acquisition, replacing a more complex bank-plus-mezzanine structure the company had initially explored.</p>
+        <div class="industry">Fund Finance</div>
+        <h4>Warehouse Facility for a Venture Manager</h4>
+        <p>Engaged by a venture capital manager to arrange a warehouse credit facility allowing it to fund investments ahead of LP capital calls. Structured a master holding company borrower so that a new loan document is not required for each investment vehicle, and ran the process with bank fund finance desks and non-bank warehouse providers in parallel, quoting the facility with and without a letter-of-credit backstop so the manager could price what the credit support was actually worth.</p>
         <dl class="deal-info">
-          <dt>Facilities Arranged</dt><dd>Unitranche + DDTL</dd>
-          <dt>Use of Proceeds</dt><dd>Acquisitions</dd>
+          <dt>Facility</dt><dd>Warehouse / SPV Line</dd>
+          <dt>Lender Channel</dt><dd>Bank &amp; Non-Bank</dd>
         </dl>
       </div>
+
       <div class="case-card">
-        <div class="industry">Business Services</div>
-        <h4>Sponsor-Backed Buyout</h4>
-        <p>Arranged the debt financing for a private equity-backed management buyout of a B2B services company from a retiring founder. Structured a first-lien term loan with a revolver for working capital, and sourced mezzanine to bridge the gap between senior capacity and total leverage need.</p>
+        <div class="industry">Specialty Finance</div>
+        <h4>Recapitalization of a Wholesale Lender</h4>
+        <p>Engaged as exclusive financial advisor and debt arranger on the recapitalization of a specialty finance company carrying legacy debt well above what the business can service. Built the capital structure model, borrowing base and liquidation analysis, with a senior lender process now running alongside negotiations with the incumbent lender on a settlement that would combine cash at closing with a conversion of the balance to equity, leaving the company with a senior working capital facility in place of the legacy stack.</p>
         <dl class="deal-info">
-          <dt>Facilities Arranged</dt><dd>First Lien + Revolver + Mezz</dd>
-          <dt>Use of Proceeds</dt><dd>Buyout</dd>
+          <dt>Facilities</dt><dd>Senior Facility + Recap</dd>
+          <dt>Situation</dt><dd>Balance-Sheet Restructuring</dd>
         </dl>
       </div>
+
+      <div class="case-card">
+        <div class="industry">Family-Owned Distribution</div>
+        <h4>Shareholder Redemption Capacity</h4>
+        <p>Engaged by a closely held distribution business where one of two voting shareholders wanted to be bought out over a period of years. Built the cash flow model to answer the question the owners actually had, which was whether the company could carry the redemption payments alongside its existing obligations, and then framed the structure and the debt that would fund it.</p>
+        <dl class="deal-info">
+          <dt>Scope</dt><dd>Debt Capacity &amp; Structuring</dd>
+          <dt>Situation</dt><dd>Ownership Transition</dd>
+        </dl>
+      </div>
+
       <div class="case-card">
         <div class="industry">Manufacturing</div>
         <h4>Refinancing Under Pressure</h4>
-        <p>Engaged by a precision manufacturer facing a near-term maturity wall with its incumbent bank group. Ran a targeted lender process across the private credit market and arranged a new first-lien facility on improved terms, giving the company runway to execute its growth plan.</p>
+        <p>Engaged by a precision manufacturer facing a near-term maturity wall with its incumbent bank group. Ran a targeted process across banks and direct lenders and arranged a new first-lien facility on improved terms, giving the company runway to execute its growth plan.</p>
         <dl class="deal-info">
-          <dt>Facilities Arranged</dt><dd>First Lien Term Loan</dd>
-          <dt>Use of Proceeds</dt><dd>Refinancing</dd>
+          <dt>Facility</dt><dd>First-Lien Term Loan</dd>
+          <dt>Situation</dt><dd>Refinancing</dd>
         </dl>
       </div>
+
     </div>
-    <p style="text-align: center; margin-top: 24px; font-size: 0.85rem; color: var(--text-light); font-style: italic;">Transaction details have been generalized.</p>
+    <p style="text-align: center; margin-top: 24px; font-size: 0.85rem; color: var(--text-light); font-style: italic;">Representative engagements, including current mandates. Client identities are withheld and transaction details have been generalized.</p>
   </div>
 </section>
 
@@ -497,7 +646,7 @@
         <div class="team-info">
           <h4>Todd Foster</h4>
           <div class="role">Founder &amp; Managing Partner</div>
-          <p>Founded Sabine Capital Partners in 2010. Over 20 years of experience in commercial banking, corporate finance, private equity, and venture capital investing. Former commercial banker with Citigroup in New York and Dubai, Special General Partner at Cottonwood Capital Partners, and Vice President at Frontline Capital Group in New York. Leads the firm's advisory practice, structuring and arranging debt financings for middle-market companies across the private credit market. FINRA registered representative (Series 63 &amp; 82). MBA in Finance, Emory University. BA, Vanderbilt University.</p>
+          <p>Founded Sabine in 2010. Over 20 years of experience in commercial banking, corporate finance, private equity, and venture capital investing. Former commercial banker with Citigroup in New York and Dubai, Special General Partner at Cottonwood Capital Partners, and Vice President at Frontline Capital Group in New York. Leads the firm's advisory practice, structuring and arranging debt financings for middle-market companies and fund managers with banks, non-bank lenders and private credit funds. Previously a FINRA registered representative (Series 63 and 82). MBA in Finance, Emory University. BA, Vanderbilt University.</p>
         </div>
       </div>
       <div class="team-card">
@@ -525,20 +674,26 @@
   <div class="section-inner">
     <div class="section-header">
       <div class="eyebrow">Our Advantage</div>
-      <h2>Why <strong>Sabine Capital</strong></h2>
+      <h2>Why <strong>Sabine</strong></h2>
     </div>
     <div class="why-grid">
       <div class="why-item">
-        <div><h4>Speed &amp; Certainty</h4><p>We move fast. Our lender relationships and market knowledge let us identify the right capital source quickly and drive processes to term sheets in days, not months.</p></div>
+        <div><h4>Speed &amp; Certainty</h4><p>We move fast. Our lender relationships and market knowledge let us identify the right capital source quickly and drive a process to term sheets in weeks, not months.</p></div>
       </div>
       <div class="why-item">
-        <div><h4>Full Product Range</h4><p>Thirteen facility types from revolvers to special situations capital. We design the right structure for your situation rather than fitting you into whatever product a single lender happens to offer.</p></div>
+        <div><h4>Full Product Range</h4><p>Twenty-two facility types across corporate credit, fund finance, working capital, acquisition finance and special situations. We design the right structure for your situation rather than fitting you into whatever product a single lender happens to offer.</p></div>
       </div>
       <div class="why-item">
-        <div><h4>Aligned Advocacy</h4><p>We represent you, not the lender. As your advisor, we negotiate on your behalf and create competitive tension in the market to get you better terms, pricing, and flexibility.</p></div>
+        <div><h4>Channel Neutral</h4><p>We have no balance sheet to protect and no single lender to feed. A bank, a non-bank lender and a private credit fund each price the same credit differently, so we run them against each other and let the market answer the question.</p></div>
       </div>
       <div class="why-item">
-        <div><h4>15+ Years of Experience</h4><p>Founded in 2010, we've arranged financings through multiple credit cycles. We know which lenders are active, what terms are achievable, and how to close transactions that banks won't touch.</p></div>
+        <div><h4>Aligned Advocacy</h4><p>We represent the borrower, not the lender. We negotiate on your behalf and create competitive tension in the market to get better terms, pricing and flexibility.</p></div>
+      </div>
+      <div class="why-item">
+        <div><h4>Since 2010</h4><p>We have arranged financings through multiple credit cycles. We know which lenders are active in a given quarter, what terms are actually achievable, and where a deal is likely to break.</p></div>
+      </div>
+      <div class="why-item">
+        <div><h4>Complex Structures</h4><p>Cross-border parent and operating company groups, holding company chains, SPVs and fund vehicles, and specialty finance collateral. The situations where the structure, not the credit, is what makes a lender hesitate.</p></div>
       </div>
     </div>
   </div>
@@ -550,7 +705,7 @@
     <div class="section-header">
       <div class="eyebrow">Get in Touch</div>
       <h2>Submit a <strong>Deal</strong></h2>
-      <p>Whether you're a business owner, sponsor, or intermediary, tell us about your financing need and we'll identify the right solution.</p>
+      <p>Whether you are a business owner, a fund manager, a sponsor, or an intermediary, tell us about the financing need and we will tell you which lenders should see it.</p>
     </div>
     <div class="contact-grid">
       <div class="contact-info">
@@ -569,9 +724,8 @@
           <div class="value"><a href="https://www.linkedin.com/company/sabine-capital" target="_blank">Sabine Capital Partners</a></div>
         </div>
         <div style="margin-top: 32px; padding: 20px; background: var(--bg); border-radius: 10px;">
-          <div style="font-size: 0.8rem; font-weight: 600; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">Regulatory</div>
-          <div style="font-size: 0.88rem; color: var(--text);">Texas Exempt Reporting Adviser</div>
-          <a href="/disclaimer/" style="font-size: 0.85rem; color: var(--blue); text-decoration: none; display: inline-block; margin-top: 8px;">See full regulatory disclosure &rarr;</a>
+          <div style="font-size: 0.8rem; font-weight: 600; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">Legal</div>
+          <a href="/disclaimer/" style="font-size: 0.88rem; color: var(--blue); text-decoration: none;">Terms of use and disclaimer &rarr;</a>
         </div>
       </div>
       <div class="contact-form">
@@ -593,15 +747,44 @@
                 <option>Growth / Expansion</option>
                 <option>Acquisition</option>
                 <option>Refinancing</option>
-                <option>Recapitalization</option>
+                <option>Working Capital / Receivables</option>
+                <option>Fund Financing (Warehouse, Subscription, NAV, GP)</option>
+                <option>Shareholder Redemption / Ownership Transition</option>
+                <option>Recapitalization / Restructuring</option>
                 <option>Management Buyout</option>
+                <option>Special Situation</option>
                 <option>Other</option>
               </select>
             </div>
             <div class="form-group">
-              <label>Approximate EBITDA</label>
+              <label>Facility Size Sought</label>
+              <select name="facility_size">
+                <option value="">Select...</option>
+                <option>Under $5M</option>
+                <option>$5M - $15M</option>
+                <option>$15M - $50M</option>
+                <option>$50M - $150M</option>
+                <option>Over $150M</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Borrower Type</label>
+              <select name="borrower_type">
+                <option value="">Select...</option>
+                <option>Operating Company</option>
+                <option>Fund / Fund Manager</option>
+                <option>Holding Company</option>
+                <option>Individual or Independent Buyer</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>EBITDA (If Applicable)</label>
               <select name="ebitda_range">
                 <option value="">Select...</option>
+                <option>Not applicable (fund or asset-backed facility)</option>
                 <option>Under $2M</option>
                 <option>$2M - $5M</option>
                 <option>$5M - $10M</option>
@@ -614,7 +797,7 @@
             <label>Deal Overview</label>
             <textarea name="deal_overview" placeholder="Brief description of the opportunity, including industry, capital need, and timeline."></textarea>
           </div>
-          <input type="hidden" name="_subject" value="New Deal Submission - Sabine Capital Partners">
+          <input type="hidden" name="_subject" value="New Deal Submission - Sabine Growth Capital Partners">
           <button type="submit" class="submit-btn">Submit Deal &rarr;</button>
           <p id="form-status" style="margin-top: 16px; font-size: 0.95rem; display: none;"></p>
         </form>
@@ -663,12 +846,13 @@
   <div class="footer-inner">
     <div class="footer-brand">
       <a href="#" class="logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 75" width="160" height="43" style="display:block;"><text x="8" y="48" font-family="Georgia,'Times New Roman',serif" font-size="46" font-style="italic" fill="rgba(255,255,255,0.7)" letter-spacing="1">Sab&#305;ne</text><polygon points="106.00,5.00 107.88,10.41 113.61,10.53 109.04,13.99 110.70,19.47 106.00,16.20 101.30,19.47 102.96,13.99 98.39,10.53 104.12,10.41" fill="#c9a96e"/><line x1="8" y1="54" x2="180" y2="54" stroke="rgba(255,255,255,0.2)" stroke-width="1"/><text x="8" y="72" font-family="Georgia,'Times New Roman',serif" font-size="17" font-style="italic" fill="rgba(255,255,255,0.5)" letter-spacing="2">Capital Partners</text></svg></a>
-      <p style="margin-top: 8px;">Financial advisor and arranger of debt financing for middle-market companies. Since 2010.</p>
+      <p style="margin-top: 8px;">Debt advisory firm arranging and placing financing with banks, non-bank lenders and private credit funds. Since 2010.</p>
     </div>
     <div class="footer-links">
       <div class="footer-col">
         <h4>Services</h4>
         <a href="#platforms">Corporate Credit</a>
+        <a href="#solutions">Fund Finance</a>
         <a href="#solutions">Financing Solutions</a>
         <a href="#process">Our Process</a>
       </div>
@@ -685,9 +869,10 @@
     </div>
   </div>
   <div class="footer-bottom">
-    <span>&copy; 2026 Sabine Capital Partners LLC. All rights reserved.</span>
-    <span>Texas Exempt Reporting Adviser &bull; 1901 N. Akard Street, Dallas, TX 75201</span>
+    <span>&copy; 2026 Sabine Growth Capital Partners LLC. All rights reserved.</span>
+    <span>1901 N. Akard Street, Dallas, TX 75201</span>
   </div>
+  <div style="max-width: 1200px; margin: 12px auto 0; font-size: 0.78rem; color: rgba(255,255,255,0.4);">Sabine Growth Capital Partners LLC is a Texas limited liability company, with a registered d/b/a Sabine Capital Partners.</div>
 </footer>
 
 

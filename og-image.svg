@@ -56,7 +56,7 @@
   </g>
 
   <!-- Tagline below logo -->
-  <text x="600" y="430" font-family="'Segoe UI', sans-serif" font-size="20" font-weight="500" fill="#c9a96e" letter-spacing="3" text-anchor="middle">PRIVATE CREDIT &#8226; MIDDLE MARKET</text>
-  <text x="600" y="478" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-style="italic" fill="#ffffff" text-anchor="middle">Arranging the right capital structure.</text>
-  <text x="600" y="518" font-family="'Segoe UI', sans-serif" font-size="18" fill="rgba(255,255,255,0.75)" letter-spacing="1.5" text-anchor="middle">$5M&#8211;$50M facilities &#183; Dallas &#183; Since 2010</text>
+  <text x="600" y="430" font-family="'Segoe UI', sans-serif" font-size="19" font-weight="500" fill="#c9a96e" letter-spacing="2.5" text-anchor="middle">DEBT ADVISORY &#8226; MIDDLE MARKET &#8226; FUND FINANCE</text>
+  <text x="600" y="478" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-style="italic" fill="#ffffff" text-anchor="middle">Arranging debt with banks, funds and lenders.</text>
+  <text x="600" y="518" font-family="'Segoe UI', sans-serif" font-size="18" fill="rgba(255,255,255,0.75)" letter-spacing="1.5" text-anchor="middle">Sub $150M facilities &#183; Dallas &#183; Since 2010</text>
 </svg>
